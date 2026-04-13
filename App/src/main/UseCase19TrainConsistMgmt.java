@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class UseCase18TrainConsistMgmt {
+public class UseCase19TrainConsistMgmt {
 
     public static void sortBogieNames(String[] arr) {
         Arrays.sort(arr);
