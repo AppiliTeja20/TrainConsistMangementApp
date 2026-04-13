@@ -1,4 +1,4 @@
-public class UseCase15TrainConsistMgmt {
+public class UseCase15TrainConsistMgmtgi {
 
     public static class CargoSafetyException extends RuntimeException {
         public CargoSafetyException(String message) {
