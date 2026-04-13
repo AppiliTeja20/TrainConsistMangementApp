@@ -1,4 +1,4 @@
-public class UseCase14TrainConsistMgmt {
+public class Main {
 
     static class InvalidCapacityException extends Exception {
         public InvalidCapacityException(String message) {
@@ -23,15 +23,13 @@ public class UseCase14TrainConsistMgmt {
 
         try {
             PassengerBogie b1 = new PassengerBogie("Sleeper", 72);
-            System.out.println("Created: " + b1.type + " " + b1.capacity);
+            System.out.println(b1.type + " " + b1.capacity);
 
-            PassengerBogie b2 = new PassengerBogie("AC", -10);
-            System.out.println("Created: " + b2.type + " " + b2.capacity);
+            PassengerBogie b2 = new PassengerBogie("AC", 0);
+            System.out.println(b2.type + " " + b2.capacity);
 
         } catch (InvalidCapacityException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
-
-        System.out.println("Program continues...");
     }
 }
